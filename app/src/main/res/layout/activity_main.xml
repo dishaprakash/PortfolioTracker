@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FAF6F6"
+    android:backgroundTint="#00F3E6E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Portfoliotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="604dp"
+        android:text="Portfolio Tracker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/assetsButton"
+        android:layout_width="131dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="396dp"
+        android:background="#00BCD4"
+        android:text="Assets"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/marketButton"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="180dp"
+        android:background="#00BCD4"
+        android:text="Market"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
